@@ -9,8 +9,8 @@ class User
   def introduce
     <<~EOS
 
-          私の名前は#{@name}です。
-      年齢は#{@age}歳。
+    私の名前は#{@name}です。
+    年齢は#{@age}歳。
     出身地は#{@birthplace}で、趣味は#{@hobby}です。
 
     EOS
